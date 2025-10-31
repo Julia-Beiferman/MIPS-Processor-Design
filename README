@@ -1,0 +1,13 @@
+COMPILE AND SIMULATE 
+1. make compile_verdi_mips
+2. make sim 
+3. make waves_verdi 
+
+
+SYNTH 
+1. make synth 
+
+memfile.dat (to be replaced in top.v)
+1. use memfile_3.dat ==> for general instructions 
+2. use memfile_3_hazard.dat ==> forwarding for ADD instructions 
+3. use memfile_beq.dat ==> branch flush hazard
